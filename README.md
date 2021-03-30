@@ -1,4 +1,7 @@
-## Lab- 2
+# Lab 03
+### New Feature
+### I added new type of questions to the guessing game.
+
 
 ## Guessing Game 
 
