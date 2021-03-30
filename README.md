@@ -21,4 +21,4 @@
 
 
 **How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?**
-*It took just an hour but to be honest I expected it to take much more than that*
+It took more time from previous lab but to be honest it becomes difficult  
