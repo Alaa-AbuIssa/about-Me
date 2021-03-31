@@ -28,21 +28,24 @@
         }
 
     // Q2 !
-    let myFavoriteFood=prompt(" maglobeh is my favorite food"+"\n"+"What do you think?");
-        myFavoriteFood=myFavoriteFood.toLowerCase();
+    function querstion2();{
 
-    if(myFavoriteFood==="yes"||myFavoriteFood==="y"){
-      alert('amaizing!! '+ userName + ' go on to the next Q');
-        // console.log("amaizing!! go on to the next Q");
-        sum++;
+        let myFavoriteFood=prompt(" maglobeh is my favorite food"+"\n"+"What do you think?");
+            myFavoriteFood=myFavoriteFood.toLowerCase();
+    
+        if(myFavoriteFood==="yes"||myFavoriteFood==="y"){
+          alert('amaizing!! '+ userName + ' go on to the next Q');
+            // console.log("amaizing!! go on to the next Q");
+            sum++;
+        }
+        else if (myFavoriteFood ==='no'|| myFavoriteFood === 'n'){
+            alert("ops! keep on never give up");
+            // console.log("ops! keep on never give up");
+        }else {
+            alert("please chose between just yes/y or no/n")
+        }
+        alert('for the my favorite Food quaistion your answer was ' + myFavoriteFood);
     }
-    else if (myFavoriteFood ==='no'|| myFavoriteFood === 'n'){
-        alert("ops! keep on never give up");
-        // console.log("ops! keep on never give up");
-    }else {
-        alert("please chose between just yes/y or no/n")
-    }
-    alert('for the my favorite Food quaistion your answer was ' + myFavoriteFood);
 
 
     // Q3 !
