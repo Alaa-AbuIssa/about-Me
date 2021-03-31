@@ -7,7 +7,7 @@
   
   
         // Q 1
-        function question1();{
+        function question1(){
         
             let myTall=prompt("am 150 cm ? "+"\n"+"What do you think?");
                 myTall=myTall.toLowerCase();
@@ -28,7 +28,7 @@
         }
 
     // Q2 !
-    function querstion2();{
+    function querstion2(){
 
         let myFavoriteFood=prompt(" maglobeh is my favorite food"+"\n"+"What do you think?");
             myFavoriteFood=myFavoriteFood.toLowerCase();
@@ -49,7 +49,7 @@
 
 
     // Q3 !
-    function question3();{
+    function question3(){
 
         let BestActor=prompt("jason statham is the best actor "+"\n"+"What do you think?");
             BestActor=BestActor.toLowerCase();
@@ -68,7 +68,7 @@
     }
 
       // Q 4!
-      function question4();{
+      function question4(){
 
           let myBestCity=prompt("Roma is the best city "+"\n"+"What do you think?");
               myBestCity=myBestCity.toLowerCase();
@@ -88,20 +88,23 @@
 
 
       // Q5!
-   let bestMajor=prompt("Civil Engineering is the best major "+"\n"+"What do you think?");
-       bestMajor=bestMajor.toLowerCase();
-   if(bestMajor==="yes"||bestMajor==="y"){
-    alert("ops! keep on never give up");
-    // console.log("amaizing!! go on to the next Q");
-   }else if(bestMajor === 'no'|| bestMajor === 'n'){
-    alert('amaizing!! '+ userName + ' go on to the next Q');
-    // console.log("ops! keep on never give up");
-        sum++;
+      function question5(){
 
-   }else {
-    alert("please chose between just yes/y or no/n")
-}
-    alert('for the my best major quaistion your answer was ' + bestMajor);
+          let bestMajor=prompt("Civil Engineering is the best major "+"\n"+"What do you think?");
+              bestMajor=bestMajor.toLowerCase();
+          if(bestMajor==="yes"||bestMajor==="y"){
+           alert("ops! keep on never give up");
+           // console.log("amaizing!! go on to the next Q");
+          }else if(bestMajor === 'no'|| bestMajor === 'n'){
+           alert('amaizing!! '+ userName + ' go on to the next Q');
+           // console.log("ops! keep on never give up");
+               sum++;
+       
+          }else {
+           alert("please chose between just yes/y or no/n")
+       }
+           alert('for the my best major quaistion your answer was ' + bestMajor);
+      }
 
 // Q6!!
 let correct=0;
