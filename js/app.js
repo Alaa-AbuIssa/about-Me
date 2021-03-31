@@ -93,8 +93,9 @@
 
 
 let correct=0;
+let rank=null ;
 for (let i = 0; i < 4; i++) {
-  let rank = prompt('what is Real madrid team ranked globally ??');
+   rank= prompt('what is Real madrid team ranked globally ??');
   if (rank < 6 ) {
     alert('Too low rank, they are not that bad !! Guess a lower rank, let us try again!! ');
      
