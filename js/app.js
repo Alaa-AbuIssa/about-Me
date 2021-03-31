@@ -49,20 +49,23 @@
 
 
     // Q3 !
-   let BestActor=prompt("jason statham is the best actor "+"\n"+"What do you think?");
-       BestActor=BestActor.toLowerCase();
+    function question3();{
 
-   if(BestActor==="yes"||BestActor==="y"){
-    alert("ops! keep on never give up");
-    // console.log("amaizing!! go on to the next Q");
-   }else if(BestActor==='no'|| BestActor === 'n'){
-    alert('amaizing!! '+ userName + ' go on to the next Q');
-    // console.log("ops! keep on never give up");
-        sum++;
-   }else {
-        alert("please chose between just yes/y or no/n")
+        let BestActor=prompt("jason statham is the best actor "+"\n"+"What do you think?");
+            BestActor=BestActor.toLowerCase();
+     
+        if(BestActor==="yes"||BestActor==="y"){
+         alert("ops! keep on never give up");
+         // console.log("amaizing!! go on to the next Q");
+        }else if(BestActor==='no'|| BestActor === 'n'){
+         alert('amaizing!! '+ userName + ' go on to the next Q');
+         // console.log("ops! keep on never give up");
+             sum++;
+        }else {
+             alert("please chose between just yes/y or no/n")
+         }
+             alert('for the my Best Actor quaistion your answer was ' + BestActor);
     }
-        alert('for the my Best Actor quaistion your answer was ' + BestActor);
 
       // Q 4!
    let myBestCity=prompt("Roma is the best city "+"\n"+"What do you think?");
