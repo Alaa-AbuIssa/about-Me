@@ -7,22 +7,25 @@
   
   
         // Q 1
-         let myTall=prompt("am 150 cm ? "+"\n"+"What do you think?");
-             myTall=myTall.toLowerCase();
-        //   while (myTall.toLocaleLowerCase() !== 'yes' || myTall !=='y' && myTall.toLocaleLowerCase() !== 'no' || myTall!=='n') {
-        //   myTall = prompt('please, if am 150 cm answer with yes if am not answer no'); 
-        // }
-
-    if (myTall==='no'||myTall==='n'){
-        alert('amaizing!! '+ userName + ' go on to the next Q');
-        // console.log("amaizing!! go on to the next Q");
-        sum++;  
-    }
-    else if(myTall === 'yes'|| myTall==='y'){
-        alert("ops! keep on never give up");
-        // console.log("ops! keep on never give up");
-    }
-    alert('for the mytall quaistion your answer was ' + myTall);
+        function question1();{
+        
+            let myTall=prompt("am 150 cm ? "+"\n"+"What do you think?");
+                myTall=myTall.toLowerCase();
+           //   while (myTall.toLocaleLowerCase() !== 'yes' || myTall !=='y' && myTall.toLocaleLowerCase() !== 'no' || myTall!=='n') {
+           //   myTall = prompt('please, if am 150 cm answer with yes if am not answer no'); 
+           // }
+   
+       if (myTall==='no'||myTall==='n'){
+           alert('amaizing!! '+ userName + ' go on to the next Q');
+           // console.log("amaizing!! go on to the next Q");
+           sum++;  
+       }
+       else if(myTall === 'yes'|| myTall==='y'){
+           alert("ops! keep on never give up");
+           // console.log("ops! keep on never give up");
+       }
+       alert('for the mytall quaistion your answer was ' + myTall);
+        }
 
     // Q2 !
     let myFavoriteFood=prompt(" maglobeh is my favorite food"+"\n"+"What do you think?");
