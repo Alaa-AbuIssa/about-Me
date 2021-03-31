@@ -68,20 +68,23 @@
     }
 
       // Q 4!
-   let myBestCity=prompt("Roma is the best city "+"\n"+"What do you think?");
-       myBestCity=myBestCity.toLowerCase();
-   
-   if(myBestCity==="yes"||myBestCity==="y"){
-    alert('amaizing!! '+ userName + ' go on to the next Q');
-    // console.log("amaizing!! go on to the next Q");
-    sum++;
-   }else if(myBestCity === 'no'|| myBestCity === 'n'){
-    alert("ops! keep on never give up");
-        // console.log("ops! keep on never give up");
-   }else {
-    alert("please chose between just yes/y or no/n")
-}
-    alert('for the my best city quaistion your answer was ' + myBestCity);
+      function question4();{
+
+          let myBestCity=prompt("Roma is the best city "+"\n"+"What do you think?");
+              myBestCity=myBestCity.toLowerCase();
+          
+          if(myBestCity==="yes"||myBestCity==="y"){
+           alert('amaizing!! '+ userName + ' go on to the next Q');
+           // console.log("amaizing!! go on to the next Q");
+           sum++;
+          }else if(myBestCity === 'no'|| myBestCity === 'n'){
+           alert("ops! keep on never give up");
+               // console.log("ops! keep on never give up");
+          }else {
+           alert("please chose between just yes/y or no/n")
+       }
+           alert('for the my best city quaistion your answer was ' + myBestCity);
+      }
 
 
       // Q5!
