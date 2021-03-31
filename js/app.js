@@ -6,7 +6,7 @@
     alert ("Dear M.r/Miss "+userName + "\n"+" Hope this messege finds you well ");
   
   
-  
+        // Q 1
          let myTall=prompt("am 150 cm ? "+"\n"+"What do you think?");
              myTall=myTall.toLowerCase();
         //   while (myTall.toLocaleLowerCase() !== 'yes' || myTall !=='y' && myTall.toLocaleLowerCase() !== 'no' || myTall!=='n') {
@@ -24,7 +24,7 @@
     }
     alert('for the mytall quaistion your answer was ' + myTall);
 
-
+    // Q2 !
     let myFavoriteFood=prompt(" maglobeh is my favorite food"+"\n"+"What do you think?");
         myFavoriteFood=myFavoriteFood.toLowerCase();
 
@@ -42,7 +42,7 @@
     alert('for the my favorite Food quaistion your answer was ' + myFavoriteFood);
 
 
-    
+    // Q3 !
    let BestActor=prompt("jason statham is the best actor "+"\n"+"What do you think?");
        BestActor=BestActor.toLowerCase();
 
@@ -58,7 +58,7 @@
     }
         alert('for the my Best Actor quaistion your answer was ' + BestActor);
 
-
+      // Q 4!
    let myBestCity=prompt("Roma is the best city "+"\n"+"What do you think?");
        myBestCity=myBestCity.toLowerCase();
    
@@ -75,7 +75,7 @@
     alert('for the my best city quaistion your answer was ' + myBestCity);
 
 
-
+      // Q5!
    let bestMajor=prompt("Civil Engineering is the best major "+"\n"+"What do you think?");
        bestMajor=bestMajor.toLowerCase();
    if(bestMajor==="yes"||bestMajor==="y"){
@@ -91,7 +91,7 @@
 }
     alert('for the my best major quaistion your answer was ' + bestMajor);
 
-
+// Q6!!
 let correct=0;
 let rank=null ;
 for (let i = 0; i < 4; i++) {
@@ -111,28 +111,28 @@ for (let i = 0; i < 4; i++) {
     correct++;
     break;
   }
-  if(correct!==1){
+  if(correct==4){
     alert ( 'you have finished your attempts and the true answer is 6');
   }
 }
 
+// Q7!!
+// let sponsarray = ['Jeep', 'KIA', 'Ford', 'Mitsubeshi', 'Toyota','Audi'];
+//   for (let y = 0; y < 6; y++) {
+//     let spons = prompt('What is the official sponsor of Juventus club (Please choose one of those brands ' + sponsarray + ' )');
+//     if (spons.toLocaleLowerCase() === sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() === sponsarray[1].toLocaleLowerCase()) {
+//       alert('Jeep or Kia are both correct');
+//       sum++;
+//       break;
+//     }
+//     if (spons.toLocaleLowerCase() !== sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() !== sponsarray[1].toLocaleLowerCase()) {
+//       alert('No it is not ' + spons);
+//     }
+//   }
+//   if (spons.toLocaleLowerCase() !== sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() !== sponsarray[1].toLocaleLowerCase()) {
+//     alert('The right answer was '+sponsarray[0]+ ' and '+sponsarray[1]);
 
-let sponsarray = ['Jeep', 'KIA', 'Ford', 'Mitsubeshi', 'Toyota','Audi'];
-  for (let y = 0; y < 6; y++) {
-    let spons = prompt('What is the official sponsor of Juventus club (Please choose one of those brands ' + sponsarray + ' )');
-    if (spons.toLocaleLowerCase() === sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() === sponsarray[1].toLocaleLowerCase()) {
-      alert('Jeep or Kia are both correct');
-      sum++;
-      break;
-    }
-    if (spons.toLocaleLowerCase() !== sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() !== sponsarray[1].toLocaleLowerCase()) {
-      alert('No it is not ' + spons);
-    }
-  }
-  if (spons.toLocaleLowerCase() !== sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() !== sponsarray[1].toLocaleLowerCase()) {
-    alert('The right answer was '+sponsarray[0]+ ' and '+sponsarray[1]);
-
-  }
+//   }
   
   {
      alert("Thanks For Your Time M.r/Miss:  "+userName);
