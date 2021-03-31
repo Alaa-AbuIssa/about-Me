@@ -112,23 +112,23 @@ function question6(){
     let correct=0;
     let rank=null ;
     for (let i = 0; i < 4; i++) {
-       rank= prompt('what is Real madrid team ranked globally ??');
+        rank= prompt('what is Real madrid team ranked globally ?? \n'+'Just to know that is from 1-10 \n'+' and you have just four trials');
       if (rank < 6 ) {
-        alert('Too low rank, they are not that bad !! Guess a lower rank, let us try again!! ');
+        alert('Too low rank, they are not that bad !!  let us try again!! ');
          
       }
       
-      if (rank > 6 ) {
-        alert('Too high rank, they are not that good hahaha !! Guess a heighr rank, let us try again!! ');
+      else if (rank > 6 ) {
+        alert('Too high rank, they are not that good hahaha !! \n'+ 'let us try again!! ');
         
       }
-      if (rank == 6) {
+      else if (rank == 6) {
         alert('You are right!!');
         sum++;
         correct++;
         break;
       }
-      if(correct==4){
+      else if (correct==4){
         alert ( 'you have finished your attempts and the true answer is 6');
       }
     }
@@ -142,7 +142,7 @@ function question7(){
     let sponsarray = ['jeep', 'kia', 'ford', 'mitsubeshi', 'toyota','audi'];
     let spons = ''
     for (let y = 0; y < 6; y++){ 
-           spons = prompt('What  is  the car sponsor of Juventus club ? ');
+           spons = prompt('What is the car sponsor of Juventus club ? ');
           for (let i = 0; i < sponsarray.length ; i++) {
     
         if (spons == sponsarray[i]) {
@@ -151,13 +151,10 @@ function question7(){
           y=6;
           break;
         }
-        // if (spons!== sponsarray[y]) {
-        // alert("no it is not , try again ");
-        // }
-      
+        
     }
     if (y==5){
-        alert ("no more trials")
+        alert ('no more trials \n'+'the right answers are = '+ sponsarray)
       }else if(y<6){
          alert('this is wrong');
     }
