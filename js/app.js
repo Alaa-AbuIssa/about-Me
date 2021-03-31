@@ -135,25 +135,45 @@ function question6(){
 }
 
 // Q7!!
-// let sponsarray = ['Jeep', 'KIA', 'Ford', 'Mitsubeshi', 'Toyota','Audi'];
-//   for (let y = 0; y < 6; y++) {
-//     let spons = prompt('What is the official sponsor of Juventus club (Please choose one of those brands ' + sponsarray + ' )');
-//     if (spons.toLocaleLowerCase() === sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() === sponsarray[1].toLocaleLowerCase()) {
-//       alert('Jeep or Kia are both correct');
-//       sum++;
-//       break;
-//     }
-//     if (spons.toLocaleLowerCase() !== sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() !== sponsarray[1].toLocaleLowerCase()) {
-//       alert('No it is not ' + spons);
-//     }
-//   }
-//   if (spons.toLocaleLowerCase() !== sponsarray[0].toLocaleLowerCase() || spons.toLocaleLowerCase() !== sponsarray[1].toLocaleLowerCase()) {
-//     alert('The right answer was '+sponsarray[0]+ ' and '+sponsarray[1]);
 
-//   }
+
+function question7(){
+    
+    let sponsarray = ['jeep', 'kia', 'ford', 'mitsubeshi', 'toyota','audi'];
+    let spons = ''
+    for (let y = 0; y < 6; y++){ 
+           spons = prompt('What  is  the car sponsor of Juventus club ? ');
+          for (let i = 0; i < sponsarray.length ; i++) {
+    
+        if (spons == sponsarray[i]) {
+           alert( 'correct');
+          sum++;
+          y=6;
+          break;
+        }
+        // if (spons!== sponsarray[y]) {
+        // alert("no it is not , try again ");
+        // }
+      
+    }
+    if (y==5){
+        alert ("no more trials")
+      }else if(y<6){
+         alert('this is wrong');
+    }
+    
+    }
+}
+    
   
+  question1();
+  question2();
+  question3();
+  question4();
+  question5();
+  question6();
+  question7();
   {
      alert("Thanks For Your Time M.r/Miss:  "+userName);
      alert('Your score is ' + sum);}
-  
   
