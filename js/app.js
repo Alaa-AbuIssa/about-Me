@@ -28,7 +28,7 @@
         }
 
     // Q2 !
-    function querstion2(){
+    function question2(){
 
         let myFavoriteFood=prompt(" maglobeh is my favorite food"+"\n"+"What do you think?");
             myFavoriteFood=myFavoriteFood.toLowerCase();
@@ -107,28 +107,31 @@
       }
 
 // Q6!!
-let correct=0;
-let rank=null ;
-for (let i = 0; i < 4; i++) {
-   rank= prompt('what is Real madrid team ranked globally ??');
-  if (rank < 6 ) {
-    alert('Too low rank, they are not that bad !! Guess a lower rank, let us try again!! ');
-     
-  }
-  
-  if (rank > 6 ) {
-    alert('Too high rank, they are not that good hahaha !! Guess a heighr rank, let us try again!! ');
-    
-  }
-  if (rank == 6) {
-    alert('You are right!!');
-    sum++;
-    correct++;
-    break;
-  }
-  if(correct==4){
-    alert ( 'you have finished your attempts and the true answer is 6');
-  }
+function question6(){
+
+    let correct=0;
+    let rank=null ;
+    for (let i = 0; i < 4; i++) {
+       rank= prompt('what is Real madrid team ranked globally ??');
+      if (rank < 6 ) {
+        alert('Too low rank, they are not that bad !! Guess a lower rank, let us try again!! ');
+         
+      }
+      
+      if (rank > 6 ) {
+        alert('Too high rank, they are not that good hahaha !! Guess a heighr rank, let us try again!! ');
+        
+      }
+      if (rank == 6) {
+        alert('You are right!!');
+        sum++;
+        correct++;
+        break;
+      }
+      if(correct==4){
+        alert ( 'you have finished your attempts and the true answer is 6');
+      }
+    }
 }
 
 // Q7!!
