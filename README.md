@@ -2,11 +2,11 @@
 ### New Feature
 ### I added new type of questions to the guessing game.
 
-
 ## Guessing Game 
 
 ## Author: ALaa Abu Issa 
 
+### I added a functions to allow you to define a block of code, give it a name and then execute it as many times as you want, فo become easy to read and handle
 
 
 
