@@ -1,13 +1,25 @@
+## Author: ALaa Abu Issa 
 # Lab 04
 ### New Feature
 ### I added new type of questions to the guessing game.
 
-## Guessing Game 
+~~~
+In this webPage you will find a simple Guessing Game. with a 7 questions :
+so you will guess an answer for the whole questions about me !!
 
-## Author: ALaa Abu Issa 
+the first one was about my tall !
+and the second one about my favorite food !
+the third one about my best actor !
+the 4th one about my favorite city !
+the 5th one about my best major !
 
-### I added a functions to allow you to define a block of code, give it a name and then execute it as many times as you want, فo become easy to read and handle
+then i made the questions look hard for you , so i added a tow questions to choose with more than two choices not just with yes or no Q !
+~~~
 
+
+
+
+### I added a functions to allow you to define a block of code, give it a name and then execute it as many times as you want,become easy to read and handle
 
 
 ### Comments:
