@@ -1,22 +1,26 @@
+body{
+background-color: gray;
+}
+
 .h1{
     text-align: center;
-    color: hsla(164, 100%, 61%, 1);
+    color: rgb(47, 73, 66);
     padding: 5px ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     border: solid rgb(25, 37, 34);
-    background-color:hsla(148, 10%, 56%, 1);
+    background-image: url("https://c.tadst.com/gfx/600x337/chicago-twilight.jpg?1");
     border-radius: 20px;
     font-family: "Lucida Console", Courier, monospace;
 }
 .h2{
-    color: hsla(164, 100%, 61%, 1);
+    color: rgb(159, 170, 167);
     text-align: center;
     padding: 5px ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     border: solid rgb(25, 37, 34);
-    background-color:hsla(148, 10%, 56%, 1);
+    background-image: url("https://i.pinimg.com/564x/89/c4/67/89c467fc057ce788dc149452af5cd827.jpg");
     border-radius: 20px;
     font-family: "Lucida Console", Courier, monospace;
 }
@@ -25,4 +29,12 @@
     color: pink;
     font-size: 23px;
 
+}
+.img {
+
+    width: 500px;
+    height: 250px;
+    position: absolute;
+
+    right: 10px;
 }

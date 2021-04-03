@@ -11,18 +11,14 @@
         
             let myTall=prompt("am 150 cm ? "+"\n"+"What do you think?");
                 myTall=myTall.toLowerCase();
-           //   while (myTall.toLocaleLowerCase() !== 'yes' || myTall !=='y' && myTall.toLocaleLowerCase() !== 'no' || myTall!=='n') {
-           //   myTall = prompt('please, if am 150 cm answer with yes if am not answer no'); 
-           // }
+         
    
        if (myTall==='no'||myTall==='n'){
            alert('amaizing!! '+ userName + ' go on to the next Q');
-           // console.log("amaizing!! go on to the next Q");
            sum++;  
        }
        else if(myTall === 'yes'|| myTall==='y'){
            alert("ops! keep on never give up");
-           // console.log("ops! keep on never give up");
        }
        alert('for the mytall quaistion your answer was ' + myTall);
         }
@@ -35,12 +31,11 @@
     
         if(myFavoriteFood==="yes"||myFavoriteFood==="y"){
           alert('amaizing!! '+ userName + ' go on to the next Q');
-            // console.log("amaizing!! go on to the next Q");
             sum++;
         }
         else if (myFavoriteFood ==='no'|| myFavoriteFood === 'n'){
             alert("ops! keep on never give up");
-            // console.log("ops! keep on never give up");
+
         }else {
             alert("please chose between just yes/y or no/n")
         }
@@ -56,10 +51,9 @@
      
         if(BestActor==="yes"||BestActor==="y"){
          alert("ops! keep on never give up");
-         // console.log("amaizing!! go on to the next Q");
+
         }else if(BestActor==='no'|| BestActor === 'n'){
          alert('amaizing!! '+ userName + ' go on to the next Q');
-         // console.log("ops! keep on never give up");
              sum++;
         }else {
              alert("please chose between just yes/y or no/n")
@@ -75,11 +69,11 @@
           
           if(myBestCity==="yes"||myBestCity==="y"){
            alert('amaizing!! '+ userName + ' go on to the next Q');
-           // console.log("amaizing!! go on to the next Q");
            sum++;
+
           }else if(myBestCity === 'no'|| myBestCity === 'n'){
            alert("ops! keep on never give up");
-               // console.log("ops! keep on never give up");
+
           }else {
            alert("please chose between just yes/y or no/n")
        }
@@ -94,10 +88,9 @@
               bestMajor=bestMajor.toLowerCase();
           if(bestMajor==="yes"||bestMajor==="y"){
            alert("ops! keep on never give up");
-           // console.log("amaizing!! go on to the next Q");
-          }else if(bestMajor === 'no'|| bestMajor === 'n'){
+
+        }else if(bestMajor === 'no'|| bestMajor === 'n'){
            alert('amaizing!! '+ userName + ' go on to the next Q');
-           // console.log("ops! keep on never give up");
                sum++;
        
           }else {
